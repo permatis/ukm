@@ -1,0 +1,190 @@
+body{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+	margin: 0;
+	padding: 50px 0 0 250px;
+	height: 100%;
+	width: 100%;
+}
+.sidebar{
+	color: #fff;
+	left: 0;
+	width: 250px;
+	position: fixed;
+	top: 50px;
+	height: 100%;
+	background: #232323;
+	border: 2px solid #128f76;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	z-index: 2;
+}
+.navbar {
+	min-height: 60px;
+}
+.sidebar h5{
+	color : #29AF84;
+	margin-top: -30px;
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+.sidebar h2{
+	text-align: center;
+	top: 0;
+	margin-top: -30px;
+	margin-bottom: 40px;
+}
+
+.sidebar h4{
+	font-size: 19px;
+	line-height: 12px;
+}
+
+.sidebar ul span{
+	margin-right: 20px;
+}
+
+.sidebar ul li{
+	margin-bottom: 0px;
+	list-style: none;
+	padding: 10px;
+	margin-left: -40px;
+}
+
+.sidebar ul li a{
+	text-decoration: none;
+}
+
+#peta{
+	width: 100%;
+	min-height: 908px;	
+}
+
+.header-tambahan{
+	margin-right: 20px;
+}
+
+.content{
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.content h3{
+	margin-top: -5px;
+}
+
+.aksi a:hover, .aksi a:focus{
+	text-decoration: none;
+}
+
+.aksi a{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.tambah{
+	float: right;
+}
+
+.simpandata{
+	margin-top: 20px;
+}
+
+#peta_admin{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 30px;
+}
+
+.control-group
+{
+	margin-bottom: 25px;;;
+}
+
+.col-sm-11{
+	margin-left: -14px;
+	margin-bottom: 22px;
+}
+
+.plus{
+	right: -10px;
+	position: absolute;;;
+}
+
+.alert{
+	padding: 12px;
+	text-align: justify;
+}
+
+.alert ol{
+	padding-left: 18px;
+	font-size: 14px;
+}
+
+.side-footer{
+	font-size: 10px;
+	padding-left: 38px;
+	position: fixed;
+	bottom: 0;
+}
+
+.kanan{
+	float: right;
+}
+
+@media screen{
+	.sidebar{
+		position: fixed;
+	}
+}
+
+
+.col-sm-11 {
+	width: 93%;
+}
+
+.modal-title{
+	text-align: center;
+	font-weight: bold;
+}
+
+@media (max-width: 1680px) and (max-height: 1050px) {
+	#peta{
+		min-height: 883px;
+	}
+}
+
+@media (max-width: 1366px)  and (max-height: 768px) {
+	#peta{
+		min-height: 708px;
+	}
+}
+
+@media (max-width: 1280px) and (max-height: 1024px) {
+	#peta{
+		min-height: 857px;
+	}
+}
+
+@media (max-width: 1280px) and (max-height: 800px) {
+	#peta{
+		min-height: 633px;
+	}
+}
+
+@media (max-width: 1024px){
+	#peta{
+		min-height: 708px;
+	}
+}
+
+@media (max-width: 768px) and (max-height: 1280px) {
+	#peta{
+		min-height: 888px;
+	}
+}
+
+
